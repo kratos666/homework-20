@@ -1,0 +1,42 @@
+-var member = 'Vikrom'
+-var baskCount = 6
+extends layout
+block title
+	title Details
+
+block content
+	section.item-image
+		img(src="http://lorempicsum.com/rio/1180/590/9", alt="")
+		ul.prev
+			li
+				a
+					img(src="http://lorempixel.com/70/70/animals")
+			li
+				a
+					img(src="http://lorempixel.com/70/70/fashion")
+			li
+				a
+					img(src="http://lorempixel.com/70/70/nature")
+	section.description
+		h1.title Floral primsoll
+		p.art.ital Article number: 14210160762
+		p.ital.cost € 99,95
+		div.size
+			p.art
+				| Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis.
+				br
+				| Maecenas malesuada elit lectus felis, malesuada ultricies.
+		p size
+		div.size-items
+			span.size-item 38
+			span.size-item 39
+			span.size-item 40
+			span.size-item 41
+			span.size-item 42
+		button.button add do cart
+		+slider('You may also like')
+			- var images = [{url:'http://lorempixel.com/198/118/'},{url:'http://lorempixel.com/198/118/'},{url:'http://lorempixel.com/198/118/'},{url:'http://lorempixel.com/198/118/'},{url:'http://lorempixel.com/198/118/'},{url:'http://lorempixel.com/198/118/'},{url:'http://lorempixel.com/198/118/'}]
+			each i in images
+				+sliderItems(i)
+
+		p.grey-block.gr-bg Show me more related clothes
