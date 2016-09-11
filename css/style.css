@@ -83,8 +83,14 @@ header {
 }
 header >div {
   -ms-flex-item-align: baseline;
-  align-self: baseline;
-  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 45px;
+  border-bottom: 1px solid #e5e5e5;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 header .logo {
   padding: 14px;
@@ -96,6 +102,8 @@ header .logo {
 header .main-menu .items {
   display: -webkit-box;
   display: -ms-flexbox;
+  -ms-flex-item-align: baseline;
+  align-self: baseline;
   display: flex;
 }
 header .main-menu .items .item a {
@@ -161,6 +169,8 @@ header .login a {
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
+  flex-wrap: wrap;
+  padding: 60px 0 150px;
   justify-content: space-between;
 }
 .content .items .gal-item {
@@ -294,6 +304,7 @@ header .login a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
+  display: flex;
   flex-wrap: wrap;
 }
 .main .cube-wrap .column {
@@ -378,6 +389,12 @@ footer {
 footer .block-menu {
   -webkit-box-flex: 1;
   -ms-flex: 1 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   flex: 1 1;
 }
 footer .block-menu a {
