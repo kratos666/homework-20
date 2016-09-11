@@ -72,6 +72,7 @@ body .wrapper {
   background-color: #fff;
 }
 header {
+<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -83,6 +84,14 @@ header {
 }
 header >div {
   -ms-flex-item-align: baseline;
+=======
+  display: flex;
+  padding-bottom: 45px;
+  border-bottom: 1px solid #e5e5e5;
+  justify-content: space-between;
+}
+header >div {
+>>>>>>> origin/project
   align-self: baseline;
   padding: 0 20px;
 }
@@ -90,12 +99,18 @@ header .logo {
   padding: 14px;
   background: #222;
   color: #fff;
+<<<<<<< HEAD
   -ms-flex-item-align: baseline;
   align-self: baseline;
 }
 header .main-menu .items {
   display: -webkit-box;
   display: -ms-flexbox;
+=======
+  align-self: baseline;
+}
+header .main-menu .items {
+>>>>>>> origin/project
   display: flex;
 }
 header .main-menu .items .item a {
@@ -153,6 +168,7 @@ header .login a {
 }
 /*content*/
 .content .items {
+<<<<<<< HEAD
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 60px 0 150px;
@@ -161,6 +177,11 @@ header .login a {
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
+=======
+  flex-wrap: wrap;
+  padding: 60px 0 150px;
+  display: flex;
+>>>>>>> origin/project
   justify-content: space-between;
 }
 .content .items .gal-item {
@@ -198,8 +219,11 @@ header .login a {
 .slide-items {
   background-color: #bbb;
   position: relative;
+<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
+=======
+>>>>>>> origin/project
   display: flex;
   height: 118px;
   overflow: hidden;
@@ -290,10 +314,14 @@ header .login a {
   font-family: Georgia;
 }
 .main .cube-wrap {
+<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
+=======
+  display: flex;
+>>>>>>> origin/project
   flex-wrap: wrap;
 }
 .main .cube-wrap .column {
@@ -311,6 +339,7 @@ header .login a {
 .main .cube-wrap .column .rectangl {
   padding: 0 60px;
   text-align: center;
+<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -325,6 +354,13 @@ header .login a {
   flex-direction: column;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
+=======
+  display: flex;
+  align-items: center;
+  width: 282px;
+  height: 564px;
+  flex-direction: column;
+>>>>>>> origin/project
   justify-content: center;
 }
 .main .cube-wrap .column .rectangl .ital {
@@ -334,6 +370,7 @@ header .login a {
   padding: 50px;
   width: 282px;
   height: 282px;
+<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -346,6 +383,11 @@ header .login a {
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
+=======
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+>>>>>>> origin/project
   align-items: center;
   text-align: center;
 }
@@ -368,6 +410,7 @@ header .login a {
 }
 /*footer*/
 footer {
+<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -378,6 +421,12 @@ footer {
 footer .block-menu {
   -webkit-box-flex: 1;
   -ms-flex: 1 1;
+=======
+  display: flex;
+  justify-content: space-between;
+}
+footer .block-menu {
+>>>>>>> origin/project
   flex: 1 1;
 }
 footer .block-menu a {
